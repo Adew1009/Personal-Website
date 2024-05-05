@@ -1,11 +1,15 @@
 const AboutPage = () => {
   return (
     <>
-      <div className="animate-in fade-in duration-1000 ">AboutPage</div>
-      <article>
-        I am new Software Engineer that recently transitioned out of Army
-        Special Forces
-      </article>
+      <div className="home-content">
+        <h1> About Page </h1>
+        <br></br>
+
+        <article>
+          I am new Software Engineer that recently transitioned out of Army
+          Special Forces
+        </article>
+      </div>
     </>
   );
 };
