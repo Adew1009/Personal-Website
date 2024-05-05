@@ -3,6 +3,7 @@ import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import { Outlet } from "react-router-dom";
 import { ThemeProvider } from "@/components/theme-provider";
+import { app } from "./components/firebase";
 
 function App() {
   return (
