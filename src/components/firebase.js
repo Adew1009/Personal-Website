@@ -1,11 +1,5 @@
 
-Use npm
 
-Use a <script> tag
-If you're already using npm and a module bundler such as webpack or Rollup, you can run the following command to install the latest SDK (Learn more):
-
-npm install firebase
-Then, initialize Firebase and begin using the SDKs for the products you'd like to use.
 
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "firebase/app";
