@@ -12,13 +12,6 @@ const HomePage = () => {
         <section className="heading home-content">
           <article>I am Full-Stack Software Engineer</article>
         </section>
-        <iframe
-          src="/Users/andrew-dew/projects/Personal-Website/src/components/Andrew Dew Resume.pdf"
-          width="100%"
-          height="600px"
-          frameBorder="0"
-          allowFullScreen
-        ></iframe>
       </main>
     </>
   );

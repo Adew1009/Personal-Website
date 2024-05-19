@@ -40,28 +40,16 @@
 .read-the-docs {
   color: #888;
 }
-.app-container {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  /* Ensures the container takes at least the full height of the viewport */
-}
 
-/* Optional: If you want some space between the NavBar and the main content */
-.app-container>div:first-child {
-  margin-bottom: auto;
-  /* Pushes the main content down */
-}
 
 .home-content {
   display: flex;
   justify-content: center;
   /* Centers horizontally */
 
-  /* Centers vertically */
-  height: 100vh;
+  /* Centers vertical
   /* Takes the full height of the viewport */
-  text-align: center;
+
   /* Centers text horizontally */
 }
 .heading {
@@ -69,6 +57,18 @@
   /* Ensures the heading takes up the full width */
   text-align: center;
   /* Centers the text */
+}
+.project {
+  display: flex;
+  justify-content: center;
+  /* Centers horizontally */
+
+  /* Aligns content to the top vertically */
+  align-items: flex-start;
+  height: 100vh;
+  /* Takes the full height of the viewport */
+  text-align: center;
+  /* Centers text horizontally */
 }
 
 .link {
@@ -79,4 +79,42 @@
   /* Centers the text */
   margin-top: 20px;
   /* Adds some space above the link */
+}
+
+/* styles.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-background text-foreground;
+  }
+
+  .dark {
+    @apply bg-gray-900 text-white;
+  }
+
+  .light {
+    @apply bg-white text-gray-900;
+  }
+
+  /* Define other classes as needed */
+}
+.gray-border {
+  border: 2px solid gray;
+}
+.center-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* Stack items vertically */
+}
+.padded-div {
+  padding: 20px;
+  border-radius: 15px;
+  background-color: #808080;
+    /*
+  /* Adds rounded corners */
 }

@@ -3,6 +3,7 @@ import App from "./App.jsx";
 import HomePage from "./pages/HomePage.jsx";
 import ErrorPage from "./pages/ErrorPage.jsx";
 import AboutPage from "./pages/AboutPage.jsx";
+import ProjectPage from "./pages/ProjectPage.jsx";
 
 const router = createBrowserRouter([
   {
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
       {
         path: "about/",
         element: <AboutPage />,
+      },
+      {
+        path: "project/",
+        element: <ProjectPage />,
       },
       {
         path: "/*/",
