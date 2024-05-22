@@ -65,7 +65,7 @@
 
   /* Aligns content to the top vertically */
   align-items: flex-start;
-  height: 100vh;
+  /* height: 100vh; */
   /* Takes the full height of the viewport */
   text-align: center;
   /* Centers text horizontally */
@@ -130,18 +130,14 @@
   border-radius: 25%;
 }
 
-html,
-body {
-  height: 100%;
-  margin: 0;
-}
+
 
 .fullpage {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100%;
+
   text-align: center;
 }
 
@@ -160,12 +156,16 @@ body {
 .animated-image {
   animation: fadeInZoom 1s ease-out forwards;
 }
+.animated-image2 {
+  animation: fadeInZoom 3s ease-out forwards;
+}
 
 .app-container {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  /* Ensure the container takes up at least the full viewport height */
+  background-color: inherit;
+  /* Inherits background color from parent */
 }
 
 .main-content {

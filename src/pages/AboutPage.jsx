@@ -1,20 +1,22 @@
 const AboutPage = () => {
   return (
     <>
-      <div className="home-content">
-        <h1> About Page </h1>
-        <br></br>
-
-        <article>
-          I am new Software Engineer that recently transitioned out of Army
-          Special Forces
-        </article>
-        <h1>
-          {" "}
-          ********************This is a test of the update
-          feature!!!!*****************
-        </h1>
-      </div>
+      <main className="fullpage">
+        <div>
+          <h1 className="heading text-4xl home-content animated-image">
+            I recently graduated from Code Platoon's Full-Stack Software
+            Engineering Immersive Course with Honors
+          </h1>
+          <br></br>
+        </div>
+        <section className="headingn text-4xl home-content animated-image2">
+          <br></br>
+          <article>
+            <br></br>I am a Special Forces Veteran with a background in
+            communications and project management
+          </article>
+        </section>
+      </main>
     </>
   );
 };

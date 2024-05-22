@@ -14,8 +14,8 @@ const ProjectPage = () => {
     <>
       <br></br>
       <div className="gray-border padded-div">
-        <h1 className="text-6xl border-b-4"> Personal Projects </h1>
-        <p>
+        <h1 className="text-8xl border-b-4"> Personal Projects </h1>
+        <p className="text-4xl">
           Below are my current personal project with links the site and Github
           repository
         </p>
@@ -24,7 +24,7 @@ const ProjectPage = () => {
       <br></br>
 
       <div className="gray-border border-b-2 center-content padded-div">
-        <h1 className="text-5xl">Transparent Budget Decisions</h1>
+        <h1 className="text-7xl">Transparent Budget Decisions</h1>
         <div class="icon-container text-center">
           <a
             title="VS Code"
@@ -136,7 +136,7 @@ const ProjectPage = () => {
             />
           </a>
         </div>
-        <p>
+        <p className="text-4xl">
           This is a personal finance tracker developed using React JS, Tailwind
           CSS, shad/cn, React-Bootstrap, React-Calendar, and the OpenAI API.
         </p>
@@ -157,7 +157,7 @@ const ProjectPage = () => {
       </div>
       <br></br>
       <div className="gray-border border-b-2 text-center center-content padded-div">
-        <h1 className="text-5xl">National Park Planner</h1>
+        <h1 className="text-7xl">National Park Planner</h1>
         <div class="icon-container text-center">
           <a
             title="VS Code"
@@ -276,7 +276,7 @@ const ProjectPage = () => {
             />
           </a>
         </div>
-        <p>
+        <p className="text-4xl">
           The National Park Planner is a one-stop destination to plan and
           remember your visits to US National Parks. The application uses token
           authentication through a username and password to log entries and
