@@ -2,8 +2,9 @@ import React from "react";
 import calendarImage from "../images/calendar.png";
 import budgetImage from "../images/Budgets.png";
 import tableImage from "../images/Table.png";
-import parkpage from "../images/ParkPage.jpeg";
+import parkpage from "../images/ParkPage.png";
 import findpark from "../images/FindPark.png";
+import home from "../images/home.png";
 import visitedparks from "../images/visitedparks.png";
 import { TBDCarousel } from "@/components/TBDCarousel";
 import { NPPCarousel } from "@/components/NPPCarousel";
@@ -274,16 +275,15 @@ const ProjectPage = () => {
           </a>
         </div>
         <p className="text-4xl">
-          The National Park Planner is a one-stop destination to plan and
-          remember your visits to US National Parks. The application uses token
-          authentication through a username and password to log entries and
-          conditionally display user data. The application incorporates the
-          National Park Service and Mapbox APIs.
+          A one-stop destination to plan and remember your visits to US National
+          Parks. The application incorporates the National Park Service and
+          Mapbox APIs.
         </p>
         <NPPCarousel
           parkpage={parkpage}
           findpark={findpark}
           visitedparks={visitedparks}
+          home={home}
         />
       </div>
     </>

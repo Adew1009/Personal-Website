@@ -25,8 +25,8 @@ const AboutPage = () => {
         <section className="heading text-4xl home-content animated-image2">
           <br></br>
           <article>
-            <br></br>A Special Forces Veteran with a background in
-            communications and project management
+            <br></br>A Special Forces Veteran with a Background in
+            Communications and Project Management
           </article>
           <a
             className="home-content"

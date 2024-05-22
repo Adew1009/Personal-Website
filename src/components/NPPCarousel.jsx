@@ -10,7 +10,7 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 
-export function NPPCarousel({ parkpage, findpark, visitedparks }) {
+export function NPPCarousel({ parkpage, findpark, visitedparks, home }) {
   const plugin = React.useRef(
     Autoplay({ delay: 4000, stopOnInteraction: true })
   );
@@ -23,6 +23,32 @@ export function NPPCarousel({ parkpage, findpark, visitedparks }) {
       onMouseLeave={plugin.current.reset}
     >
       <CarouselContent>
+        <CarouselItem key={home}>
+          <div className="p-1">
+            <Card>
+              <CardContent className="flex  items-center justify-center p-6">
+                <img
+                  className="rounded-xl shadow-xl shadow-slate-00 "
+                  src={home}
+                  alt="Find a Park Page"
+                />
+              </CardContent>
+            </Card>
+          </div>
+        </CarouselItem>
+        <CarouselItem key={findpark}>
+          <div className="p-1">
+            <Card>
+              <CardContent className="flex  items-center justify-center p-6">
+                <img
+                  className="rounded-xl shadow-xl shadow-slate-00 "
+                  src={findpark}
+                  alt="Find a Park Page"
+                />
+              </CardContent>
+            </Card>
+          </div>
+        </CarouselItem>
         <CarouselItem key={parkpage}>
           <div className="p-1">
             <Card>
@@ -44,19 +70,6 @@ export function NPPCarousel({ parkpage, findpark, visitedparks }) {
                   className="rounded-xl shadow-xl shadow-slate-00 "
                   src={visitedparks}
                   alt="Visited Parks Page"
-                />
-              </CardContent>
-            </Card>
-          </div>
-        </CarouselItem>
-        <CarouselItem key={findpark}>
-          <div className="p-1">
-            <Card>
-              <CardContent className="flex  items-center justify-center p-6">
-                <img
-                  className="rounded-xl shadow-xl shadow-slate-00 "
-                  src={findpark}
-                  alt="Find a Park Page"
                 />
               </CardContent>
             </Card>
