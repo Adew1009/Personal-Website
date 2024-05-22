@@ -26,7 +26,8 @@ const NavBar = () => {
             to="/about/"
             className="shadow-md rounded-full pt-2 pb-2 pr-4 pl-4 no-underline flex justify-center text-black dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
           >
-            About
+            {" "}
+            About Me
           </Link>
         </li>
         <li>

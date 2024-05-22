@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { ProjectsButton } from "@/components/ProjectsButton";
 
 const HomePage = () => {
   return (
@@ -14,6 +15,8 @@ const HomePage = () => {
         <section className="headingn text-4xl home-content animated-image">
           <article>Full-Stack Software Engineer</article>
         </section>
+        <br></br>
+        <ProjectsButton />
       </main>
     </>
   );

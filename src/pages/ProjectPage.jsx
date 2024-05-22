@@ -15,16 +15,13 @@ const ProjectPage = () => {
       <br></br>
       <div className="gray-border padded-div">
         <h1 className="text-8xl border-b-4"> Personal Projects </h1>
-        <p className="text-4xl">
-          Below are my current personal project with links the site and Github
-          repository
-        </p>
       </div>
       <br></br>
       <br></br>
 
       <div className="gray-border border-b-2 center-content padded-div">
         <h1 className="text-7xl">Transparent Budget Decisions</h1>
+        <br></br>
         <div class="icon-container text-center">
           <a
             title="VS Code"
@@ -137,8 +134,8 @@ const ProjectPage = () => {
           </a>
         </div>
         <p className="text-4xl">
-          This is a personal finance tracker developed using React JS, Tailwind
-          CSS, shad/cn, React-Bootstrap, React-Calendar, and the OpenAI API.
+          Personal Finance Application Capable of Tracking and Forcasting
+          Expenses
         </p>
 
         <a
