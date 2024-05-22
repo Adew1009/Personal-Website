@@ -12,7 +12,7 @@ import {
 
 export function TBDCarousel({ tableImage, calendarImage, budgetImage }) {
   const plugin = React.useRef(
-    Autoplay({ delay: 4000, stopOnInteraction: true })
+    Autoplay({ delay: 6000, stopOnInteraction: true })
   );
 
   return (
@@ -26,7 +26,7 @@ export function TBDCarousel({ tableImage, calendarImage, budgetImage }) {
         <CarouselItem key={calendarImage}>
           <div className="p-1">
             <Card>
-              <CardContent className="flex aspect-square items-center justify-center p-6">
+              <CardContent className="flex  items-center justify-center">
                 <img
                   className="rounded-xl shadow-xl shadow-slate-00 w-2/3"
                   src={calendarImage}
@@ -39,7 +39,7 @@ export function TBDCarousel({ tableImage, calendarImage, budgetImage }) {
         <CarouselItem key={tableImage}>
           <div className="p-1">
             <Card>
-              <CardContent className="flex aspect-square items-center justify-center p-6">
+              <CardContent className="flex  items-center justify-center">
                 <img
                   className="rounded-xl shadow-xl shadow-slate-00 w-2/3"
                   src={tableImage}
@@ -52,7 +52,7 @@ export function TBDCarousel({ tableImage, calendarImage, budgetImage }) {
         <CarouselItem key={budgetImage}>
           <div className="p-1">
             <Card>
-              <CardContent className="flex aspect-square items-center justify-center p-6">
+              <CardContent className="flex  items-center justify-center">
                 <img
                   className="rounded-xl shadow-xl shadow-slate-00 w-2/3"
                   src={budgetImage}

@@ -10,30 +10,58 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 
-export function CarouselPlugin() {
+export function NPPCarousel({ parkpage, findpark, visitedparks }) {
   const plugin = React.useRef(
-    Autoplay({ delay: 2000, stopOnInteraction: true })
+    Autoplay({ delay: 4000, stopOnInteraction: true })
   );
 
   return (
     <Carousel
       plugins={[plugin.current]}
-      className="w-full max-w-xs"
+      className="w-full h-full"
       onMouseEnter={plugin.current.stop}
       onMouseLeave={plugin.current.reset}
     >
       <CarouselContent>
-        {Array.from({ length: 5 }).map((_, index) => (
-          <CarouselItem key={index}>
-            <div className="p-1">
-              <Card>
-                <CardContent className="flex aspect-square items-center justify-center p-6">
-                  <span className="text-4xl font-semibold">{index + 1}</span>
-                </CardContent>
-              </Card>
-            </div>
-          </CarouselItem>
-        ))}
+        <CarouselItem key={parkpage}>
+          <div className="p-1">
+            <Card>
+              <CardContent className="flex items-center justify-center p-6">
+                <img
+                  className="rounded-xl shadow-xl shadow-slate-00"
+                  src={parkpage}
+                  alt="Park Page"
+                />
+              </CardContent>
+            </Card>
+          </div>
+        </CarouselItem>
+        <CarouselItem key={visitedparks}>
+          <div className="p-1">
+            <Card>
+              <CardContent className="flex  items-center justify-center p-6">
+                <img
+                  className="rounded-xl shadow-xl shadow-slate-00 "
+                  src={visitedparks}
+                  alt="Visited Parks Page"
+                />
+              </CardContent>
+            </Card>
+          </div>
+        </CarouselItem>
+        <CarouselItem key={findpark}>
+          <div className="p-1">
+            <Card>
+              <CardContent className="flex  items-center justify-center p-6">
+                <img
+                  className="rounded-xl shadow-xl shadow-slate-00 "
+                  src={findpark}
+                  alt="Find a Park Page"
+                />
+              </CardContent>
+            </Card>
+          </div>
+        </CarouselItem>
       </CarouselContent>
       <CarouselPrevious />
       <CarouselNext />
