@@ -12,7 +12,7 @@ function App() {
         <div>
           <NavBar />
         </div>
-        <div>
+        <div className="main-content">
           <Outlet />
         </div>
         <Footer />
