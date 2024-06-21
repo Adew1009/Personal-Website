@@ -20,14 +20,22 @@ const AboutPage = () => {
               alt="HTML icon"
             />
           </a>
+          <h2>
+            {" "}
+            The rigorous full-time software engineering program at Code Platoon
+            specialized in JavaScript, Python, Django, Microsoft Visual Studio
+            Code, GitHub, Agile Methodologies, and React.js, with a focus on
+            remote learning to develop proficiency in modern software
+            development practices and tools.
+          </h2>
           <br></br>
         </div>
         <section className="heading text-4xl home-content animated-image2">
           <br></br>
-          <article>
+          <h1>
             <br></br>A Special Forces Veteran with a Background in
             Communications and Project Management
-          </article>
+          </h1>
           <a
             className="home-content"
             title="Code Platoon"
@@ -42,6 +50,17 @@ const AboutPage = () => {
             />
           </a>
         </section>
+        <h2>
+          {" "}
+          I transitioned out of the Army at the top position, Operations
+          Sergeant, for a special Forces Soldier (Green Beret). I worked in a
+          highly prized unit of Special Forces known as the Jedburghs. As a
+          Jedburgh leader I was trusted to work independant from direct
+          supervision to achieve goals and manage programs. The mission of
+          Jedburghs closely translates to a project management consultant and
+          relied heavily of building relationshships and effective
+          communitcations.
+        </h2>
       </main>
     </>
   );
