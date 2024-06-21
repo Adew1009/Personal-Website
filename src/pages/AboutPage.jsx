@@ -15,9 +15,9 @@ const AboutPage = () => {
     <>
       <main className="fullpage">
         <div>
-          <h1 className="heading text-4xl home-content animated-image">
-            Recent graduate from Code Platoon's Full-Stack Software Engineering
-            Immersive Course with Honors{" "}
+          <h1 className="heading text-6xl home-content animated-image">
+            Graduate of Code Platoon's Full-Stack Software Engineering Immersive
+            Course with Honors{" "}
           </h1>{" "}
           <a
             className="home-content"
@@ -32,7 +32,7 @@ const AboutPage = () => {
               alt="HTML icon"
             />
           </a>
-          <h2>
+          <h2 className="text-3xl">
             {" "}
             The rigorous full-time software engineering program at Code Platoon
             specialized in JavaScript, Python, Django, Microsoft Visual Studio
@@ -44,7 +44,7 @@ const AboutPage = () => {
           <br></br>
         </div>
         <section className="SF">
-          <section className="heading text-4xl home-content animated-image2">
+          <section className="heading text-6xl home-content animated-image2">
             <br></br>
             <h1>
               <br></br>A Special Forces Veteran with a Background in
@@ -64,7 +64,7 @@ const AboutPage = () => {
               />
             </a>
           </section>
-          <h2>
+          <h2 className="text-3xl">
             {" "}
             I transitioned out of the Army at the top position, Operations
             Sergeant, for a Special Forces Soldier (Green Beret). I worked in a

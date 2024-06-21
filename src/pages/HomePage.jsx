@@ -7,12 +7,12 @@ const HomePage = () => {
     <>
       <main className="fullpage">
         <div>
-          <h1 className="heading text-8xl home-content animated-image">
+          <h1 className="heading1 text-8xl home-content animated-image">
             Hi, I'm Andrew Dew
           </h1>
           <br></br>
         </div>
-        <section className="headingn text-4xl home-content animated-image">
+        <section className="heading text-4xl home-content animated-image">
           <article>Full-Stack Software Engineer</article>
         </section>
         <br></br>
