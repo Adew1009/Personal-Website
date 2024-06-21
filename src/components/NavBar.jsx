@@ -8,7 +8,7 @@ const NavBar = () => {
         <li>
           <Link
             to="/"
-            className="shadow-md rounded-full pt-2 pb-2 pr-4 pl-4 no-underline flex justify-center text-black dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
+            className="shadow-md text-3xl rounded-full pt-2 pb-2 pr-4 pl-4 no-underline flex justify-center text-black dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
           >
             Home Page
           </Link>
@@ -16,7 +16,7 @@ const NavBar = () => {
         <li>
           <Link
             to="/project/"
-            className="shadow-md rounded-full pt-2 pb-2 pr-4 pl-4 no-underline flex justify-center text-black dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
+            className="shadow-md text-3xl rounded-full pt-2 pb-2 pr-4 pl-4 no-underline flex justify-center text-black dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
           >
             Projects
           </Link>
@@ -24,7 +24,7 @@ const NavBar = () => {
         <li>
           <Link
             to="/about/"
-            className="shadow-md rounded-full pt-2 pb-2 pr-4 pl-4 no-underline flex justify-center text-black dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
+            className="shadow-md text-3xl rounded-full pt-2 pb-2 pr-4 pl-4 no-underline flex justify-center text-black dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
           >
             {" "}
             About Me
@@ -35,7 +35,7 @@ const NavBar = () => {
             href="https://drive.google.com/file/d/1ZczosSwEbLCMnCl2B6bCUmDoJKXPYb_g/view?usp=drive_link"
             target="_blank"
             rel="noopener noreferrer"
-            className="shadow-md rounded-full pt-2 pb-2 pr-4 pl-4 no-underline flex justify-center text-black dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
+            className="shadow-md text-3xl rounded-full pt-2 pb-2 pr-4 pl-4 no-underline flex justify-center text-black dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
           >
             Resume
           </a>
@@ -50,8 +50,8 @@ const NavBar = () => {
           aria-label="LinkedIn"
         >
           <img
-            height="30"
-            width="30"
+            height="40"
+            width="40"
             src="https://skillicons.dev/icons?i=linkedin"
             alt="LinkedIn icon"
           />
@@ -64,8 +64,8 @@ const NavBar = () => {
           aria-label="GitHub"
         >
           <img
-            height="30"
-            width="30"
+            height="40"
+            width="40"
             src="https://skillicons.dev/icons?i=github"
             alt="GitHub icon"
           />

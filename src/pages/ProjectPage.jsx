@@ -143,7 +143,8 @@ const ProjectPage = () => {
           href="https://transparent-budget-decisions.web.app/"
           target="_blank"
           rel="noopener noreferrer"
-          className="shadow-md rounded-full pt-2 pb-2 pr-4 pl-4 underline flex justify-center text-blue dark:text-blue hover:bg-gray-200 dark:hover:bg-gray-700"
+          className="shadow-md rounded-full <br></br>
+           text-3xl pt-2 pb-2 pr-4 pl-4 underline flex justify-center text-blue dark:text-blue hover:bg-gray-200 dark:hover:bg-gray-700"
         >
           Site Link
         </a>

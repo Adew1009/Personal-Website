@@ -7,6 +7,7 @@ import dew6 from "../images/dew6.jpeg";
 import dew7 from "../images/dew7.jpg";
 import code1 from "../images/CodePlatoon1.png";
 import code2 from "../images/CodePlatoon2.png";
+import jed from "../images/Subject.png";
 import { DewCarousel } from "@/components/DewCarousel";
 import { CodeCarousel } from "@/components/CodeCarousel";
 
@@ -15,6 +16,10 @@ const AboutPage = () => {
     <>
       <main className="fullpage">
         <div>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
           <h1 className="heading text-6xl home-content animated-image">
             Graduate of Code Platoon's Full-Stack Software Engineering Immersive
             Course with Honors{" "}
@@ -60,6 +65,19 @@ const AboutPage = () => {
                 height="100"
                 width="125"
                 src="https://www.soc.mil/USASFC/Images/5th/vietnam%20w%20crest.png"
+                alt="HTML icon"
+              />
+            </a>
+            <a
+              className="home-content"
+              title="Code Platoon"
+              href="https://www.codeplatoon.org/full-stack/"
+              target="_blank"
+            >
+              <img
+                height="100"
+                width="125"
+                src="../images/Subject.png"
                 alt="HTML icon"
               />
             </a>
