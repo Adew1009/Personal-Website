@@ -15,7 +15,7 @@ const ProjectPage = () => {
     <>
       <br></br>
       <div className="gray-border padded-div">
-        <h1 className="text-8xl border-b-4"> Personal Projects </h1>
+        <h1 className="text-8xl border-b-4"> My Personal Projects </h1>
       </div>
       <br></br>
       <br></br>
