@@ -7,6 +7,7 @@ const NavBar = () => {
       <div className="flex justify-between items-center">
         <nav className="items-center justify-between hidden h-max w-full md:flex md:w-auto md:order-1">
           <ul className="flex flex-col font-xl md:flex-row md:mt-0">
+            {/* <ul className="flex flex-col font-xl md:flex-row md:mt-0"> */}
             <li>
               <Link
                 to="/"
