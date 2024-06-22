@@ -6,8 +6,12 @@ const NavBar = () => {
     <div className="container mx-auto px-6">
       <div className="flex justify-between items-center">
         <nav className="items-center justify-between hidden h-max w-full md:flex md:w-auto md:order-1">
+          <div style={{ display: "flex", justifyContent: "flex-end" }}>
+            <ModeToggle
+              style={{ display: "flex", justifyContent: "flex-end" }}
+            />
+          </div>
           <ul className="flex flex-col font-xl md:flex-row md:mt-0">
-            {/* <ul className="flex flex-col font-xl md:flex-row md:mt-0"> */}
             <li>
               <Link
                 to="/"
@@ -75,9 +79,9 @@ const NavBar = () => {
               />
             </a>
           </span>
-          <div>
-            <ModeToggle />
-          </div>
+          <h1>
+            <br></br>{" "}
+          </h1>
         </nav>
       </div>
     </div>
