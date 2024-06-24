@@ -48,8 +48,8 @@ const AboutPage = () => {
           <CodeCarousel code2={code2}></CodeCarousel>
           <br></br>
         </div>
-        <section className="SF">
-          <section className="heading text-6xl home-content animated-image2">
+        <h1 className="SF">
+          <h1 className="heading text-6xl home-content animated-image">
             <br></br>
             <h1>
               <br></br>A Special Forces Veteran with a Background in
@@ -68,7 +68,7 @@ const AboutPage = () => {
                 alt="HTML icon"
               />
             </a>
-          </section>
+          </h1>
           <h2 className="text-3xl">
             {" "}
             I transitioned out of the Army at the top position, Operations
@@ -89,7 +89,7 @@ const AboutPage = () => {
             dew6={dew6}
             dew7={dew7}
           ></DewCarousel>
-        </section>
+        </h1>
       </main>
     </>
   );
