@@ -68,19 +68,6 @@ const AboutPage = () => {
                 alt="HTML icon"
               />
             </a>
-            <a
-              className="home-content"
-              title="Code Platoon"
-              href="https://www.codeplatoon.org/full-stack/"
-              target="_blank"
-            >
-              <img
-                height="100"
-                width="125"
-                src="../images/Subject.png"
-                alt="HTML icon"
-              />
-            </a>
           </section>
           <h2 className="text-3xl">
             {" "}
