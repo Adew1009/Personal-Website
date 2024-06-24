@@ -37,9 +37,19 @@ const NavBar = () => {
                 About Me
               </Link>
             </li>
-            <li>
+            {/* <li>
               <a
                 href="https://drive.google.com/file/d/1ZczosSwEbLCMnCl2B6bCUmDoJKXPYb_g/view?usp=drive_link"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="shadow-md text-3xl rounded-full pt-2 pb-2 pr-4 pl-4 no-underline flex justify-center text-black dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
+              >
+                Resume
+              </a>
+            </li> */}
+            <li>
+              <a
+                href="src/components/AndrewDewResume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="shadow-md text-3xl rounded-full pt-2 pb-2 pr-4 pl-4 no-underline flex justify-center text-black dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
