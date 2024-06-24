@@ -4,7 +4,7 @@ import { ModeToggle } from "./mode_toggle";
 const NavBar = () => {
   return (
     <div className="container mx-auto px-6">
-      <div className="flex justify-between items-center">
+      <div className="flex justify-around items-center">
         <nav className="items-center justify-between hidden h-max w-full md:flex md:w-auto md:order-1">
           <div style={{ display: "flex", justifyContent: "flex-end" }}>
             <ModeToggle

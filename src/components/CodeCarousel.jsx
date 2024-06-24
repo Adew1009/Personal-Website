@@ -24,19 +24,6 @@ export function CodeCarousel({ code1, code2 }) {
         onMouseLeave={plugin.current.reset}
       >
         <CarouselContent>
-          <CarouselItem key={code1}>
-            <div className="p-1">
-              <Card>
-                <CardContent className="flex  items-center justify-center">
-                  <img
-                    className="rounded-xl shadow-xl shadow-slate-00 w-2/3"
-                    src={code1}
-                    alt="data table"
-                  />
-                </CardContent>
-              </Card>
-            </div>
-          </CarouselItem>
           <CarouselItem key={code2}>
             <div className="p-1">
               <Card>

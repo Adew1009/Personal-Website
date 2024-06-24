@@ -45,7 +45,7 @@ const AboutPage = () => {
             remote learning to develop proficiency in modern software
             development practices and tools.
           </h2>
-          <CodeCarousel code1={code1} code2={code2}></CodeCarousel>
+          <CodeCarousel code2={code2}></CodeCarousel>
           <br></br>
         </div>
         <section className="SF">
