@@ -3,18 +3,15 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-  font-family: 'forum';
+
 
 }
 
 @font-face {
-  font-family: 'blackjack';
-  src: url(components/fonts/blackjack.otf);
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
 }
-@font-face {
-  font-family: 'forum';
-  src: url(components/fonts/Forum-Regular.ttf);
-}
+
 
 .logo {
   height: 6em;
@@ -109,7 +106,7 @@
   /* Define other classes as needed */
 }
 .gray-border {
-  border: 2px solid gray;
+
 }
 .center-content {
   display: flex;
@@ -121,7 +118,7 @@
 .padded-div {
   padding: 20px;
   border-radius: 15px;
-  background-color: #808080;
+
     /*
   /* Adds rounded corners */
 }

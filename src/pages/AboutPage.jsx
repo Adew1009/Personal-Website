@@ -71,14 +71,13 @@ const AboutPage = () => {
           </h1>
           <h2 className="text-3xl">
             {" "}
-            I transitioned out of the Army at the top position, Operations
-            Sergeant, for a Special Forces Soldier (Green Beret). I worked in a
-            highly prized unit of Special Forces known as the Jedburghs. As a
-            Jedburgh leader I was trusted to work independant from direct
-            supervision to achieve goals and manage programs. The mission of
-            Jedburghs closely translates to a project management consultant and
-            relied heavily of building relationshships and effective
-            communitcations.
+            I transitioned out of the Army from the top position of Operations
+            Sergeant Major, specifically within the esteemed Special Forces unit
+            known as the Jedburghs. In this role, I was entrusted with working
+            independently to achieve objectives and manage programs effectively.
+            The mission of the Jedburghs parallels the responsibilities of a
+            project management consultant, emphasizing the importance of
+            building relationships and effective communication.
           </h2>
           <DewCarousel
             dew1={dew1}
