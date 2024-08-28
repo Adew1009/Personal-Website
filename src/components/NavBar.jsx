@@ -135,7 +135,7 @@ const NavBar = () => {
             </li>
             <li>
               <a
-                href="https://drive.google.com/file/d/1t8kHeEdChN7kfIsDKF3W80z6ev4cuqiM/view"
+                href="https://drive.google.com/file/d/1_42gZ71cP_lf3E5lH8fcQVb5kje9qW8O/view?usp=drive_link"
                 rel="noopener noreferrer"
                 className="shadow-md text-3xl rounded-full pt-2 pb-2 pr-4 pl-4 no-underline flex justify-center text-black dark:text-white hover:bg-gray-200 dark:hover:bg-gray-700"
               >
