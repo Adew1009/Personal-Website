@@ -4,7 +4,7 @@ export default function Footer() {
       <footer className="nav-footer-background-color">
         <div className="w-full mx-auto flex justify-center mt-3">
           <span className="text-xs text-gray-500 sm:text-center dark:text-gray-400">
-            © 2024{" "}
+            © 2025{" "}
             <a href="/" className="no-underline text-gray-400 hover:underline">
               Andrew Dew
             </a>{" "}
